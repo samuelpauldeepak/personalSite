@@ -1,0 +1,160 @@
+
+body{
+  margin: 0;
+  background-color: #FEFBE7
+}
+/****************************************************TOPBAR*********************************/
+.topbar{
+  width: 1536px;
+  height: 120px;
+  background-color:#EFEAD8 ;
+  position: fixed;
+  z-index: 3;
+}
+
+.topbar-heading{
+position:relative;
+text-align: center;
+top: 7px;
+font-family: 'Dancing Script', cursive;
+color: #6D8B74;
+font-size: 38px;
+
+}
+.cv{
+  text-decoration: none;
+  position: absolute;
+  top:32px;
+  left:10px;
+}
+.cv_button{
+  padding:10px 17px 10px 17px;
+  border-width: 2px;
+  border-radius: 8px;
+  color: beige;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  background-color: #1B2430;
+}
+.contact{
+
+  width: 40px;
+  height: 40px;
+  position:absolute;
+  top: 30px
+}
+.fb{
+right: 200px;
+
+}
+.insta{
+right:150px;
+
+}
+.twitter{
+  right:100px;
+}
+.git{
+  right: 50px;
+}
+
+
+
+/*******************************************************ABOUT************************/
+.about{
+  margin: auto;
+  width: 1536px;
+  height: 600px;
+  position:inherit;
+  background-color: #FEFBE7;
+  z-index: 2;
+}
+.profile{
+   width:240px;
+   height:240px;
+   position: absolute;
+   left: 650px;
+   top: 250px;
+}
+.about-heading{
+position: relative;
+top:100px;
+text-align: center;
+font-size: 50px;
+font-family: 'Rubik', sans-serif;
+color: #6D8B74;
+
+}
+.about-content{
+  text-align:center;
+  position: relative;
+  left: 250px;
+  top: 405px;
+  width: 1000px;
+  font-family: 'Rubik', sans-serif;
+}
+/********************************************************Divider********************************/
+.divider1{
+  position:relative;
+  margin: auto;
+  height: 5px;
+  width: 8%;
+  border-style: dotted none none none;
+  border-color: #6D8B74;
+  border-width: 8px;
+}
+/******************************************************Skills**********************************/
+.skill-heading{
+  position: relative;
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: #6D8B74;
+}
+.skill-content{
+  position: relative;
+  font-family:  'Rubik', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color:#1B2430;
+  top: 35px;
+  left:325px;
+  display: inline-block;
+}
+/*********************************************************Heading*********************************/
+.interest-heading{
+  position: relative;
+  top:80px;
+  font-size: 50px;
+  font-family:'Rubik', sans-serif;
+  text-align: center;
+  color:#6D8B74;
+}
+.interest-content{
+  position: relative;
+  font-family:  'Rubik', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color:#1B2430;
+  top: 130px;
+  left: 560px;
+  display: inline-block;
+}
+/**********************************************************bottom-bar*****************************/
+.bottombar{
+  position: relative;
+  height: 120px;
+  width: 1536px;
+  background-color: #6D8B74;
+  top: 200px;
+}
+.bottombar-content{
+    position: relative;
+    font-family:  'Rubik', sans-serif;
+    font-size: 20px;
+    color: #FEFBE7;
+    top: 20px;
+    left: 500px;
+    display: inline-block;
+
+}
